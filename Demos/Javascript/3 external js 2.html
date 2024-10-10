@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- external js / used in multiple docs -->
+    <script>
+        console.log("s0");
+    </script>
+    <script src="3 external.js"></script>
+    <!-- internal js  / used across the document -->
+    <script>
+        console.log("s1");
+    </script>
+    <script>
+        console.log("s2");
+    </script>
+    <script>
+        function internalScript() {
+            console.log("the internal script")
+        }
+        console.log("*")
+        internalScript();
+    </script>
+    <script>
+        console.log("**");
+        internalScript();
+    </script>
+</head>
+<body>
+    <form>
+        <!-- inline / belongs to elemen t -->
+        <button onclick="alert('Welcome JS');">
+            Get Message
+        </button>
+        <button onclick='alert("Thankyou");console.log("Thankyou")'>
+            Say Thankyou
+        </button>
+        <!-- my default / submit the form -->
+        <button onclick='internalScript()'>
+            internal
+        </button>
+        <!-- does not submit to the server -->
+        <button type="button" onclick='internalScript()'>
+            internal
+        </button>
+        <button type="button" onclick='externalScript()'>
+            external
+        </button>
+    </form>
+</body>
+
+</html>

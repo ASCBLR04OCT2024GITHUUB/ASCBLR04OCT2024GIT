@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Search</title>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Enter name prefix">
+    <button onclick="searchNames()">Case-Insensitive Search</button>
+    <button onclick="searchNamesCaseSensitive()">Case-Sensitive Search</button>
+    <button onclick="searchNamesExact()">Exact Match Search</button>
+    <button onclick="searchNamesAnywhere()">Search Anywhere in Name</button>
+    <ul id="resultList"></ul>
+
+    <script>
+        var names = [
+            "Ananya",
+            "Sandeep",
+            "Nitish",
+            "Bhargav",
+            "Jalaj",
+            "Harsh",
+            "Rohit",
+            "Rajat",
+            "Pavithra",
+            "Nitish",
+            "Uday",
+            "Swarneem",
+            "Komal",
+            "Pallavi",
+            "Harsh",
+            "Aayush",
+            "Bodha",
+            "Charani",
+            "Gaurav"
+        ];
+
+        // Function for case-insensitive search
+        function searchNames() {
+            var input = document.getElementById('searchInput').value.toLowerCase();
+            var resultList = document.getElementById('resultList');
+            resultList.innerHTML = '';
+
+            var filteredNames = names.filter(name => name.toLowerCase().startsWith(input));
+            filteredNames.forEach(name => {
+                var listItem = document.createElement('li');
+                listItem.textContent = name;
+                resultList.appendChild(listItem);
+            });
+
+            // input, process, output
+            // store output
+            var filteredNames;
+            names.filter();
+
+            function caseInsensitivekSearch(name, input) {
+                var output = name.toLowerCase.startsWith(input);
+                return output;
+            }
+            
+            name => name.toLowerCase().startsWith(input)
+           
+        }
+
+        // Function for case-sensitive search
+        function searchNamesCaseSensitive() {
+            var input = document.getElementById('searchInput').value;
+            var resultList = document.getElementById('resultList');
+            resultList.innerHTML = '';
+
+            var filteredNames = names.filter(name => name.startsWith(input));
+            filteredNames.forEach(name => {
+                var listItem = document.createElement('li');
+                listItem.textContent = name;
+                resultList.appendChild(listItem);
+            });
+        }
+
+        // Function for exact match search
+        function searchNamesExact() {
+            var input = document.getElementById('searchInput').value;
+            var resultList = document.getElementById('resultList');
+            resultList.innerHTML = '';
+
+            var filteredNames = names.filter(name => name === input);
+            filteredNames.forEach(name => {
+                var listItem = document.createElement('li');
+                listItem.textContent = name;
+                resultList.appendChild(listItem);
+            });
+        }
+
+        // Function for searching characters anywhere in the name
+        function searchNamesAnywhere() {
+            var input = document.getElementById('searchInput').value.toLowerCase();
+            var resultList = document.getElementById('resultList');
+            resultList.innerHTML = '';
+
+            var filteredNames = names.filter(name => name.toLowerCase().includes(input));
+            filteredNames.forEach(name => {
+                var listItem = document.createElement('li');
+                listItem.textContent = name;
+                resultList.appendChild(listItem);
+            });
+        }
+    </script>
+</body>
+</html>

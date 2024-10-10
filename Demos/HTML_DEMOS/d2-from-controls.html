@@ -1,0 +1,90 @@
+<!-- HTML4 document -->
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd"> -->
+<!-- specifies this is a html 5 document -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script> -->
+        <link href="bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+        <table>
+            <tr>
+                <td>       <u><h1 style="font-style: italic;">Registration Form</h1>
+                </u> </td>
+                <td> <img src="html5.png" style="padding-left:250px"/></td>
+            </tr>
+        </table>
+
+  
+        <div style="background-color: cyan; padding:50px">
+            <form>
+        Enter your Name : <input type="text"/>
+        <br/></br>
+        Enter your Password : <input type="password"/>
+        <br/></br>
+
+        Address : 
+        <textarea cols="15" rows="3"></textarea>
+        <br/></br>
+        Beverage Preference : <br/>
+        <input type="checkbox"> Tea
+        <input type="checkbox"> Coffee 
+        <br/></br>
+
+        Gender : <br/>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br/></br>
+
+        Meal : <br/>
+        <input type="radio" name="meal"> Veg
+        <input type="radio" name="meal"> Nonveg
+        <br/></br>
+        Payment : 
+        <select>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+        </select>
+
+        <!-- input is element
+         value is attribute
+         type is attribute
+         style is an attribute
+         color is a css property and red is the value -->
+         <br/><br/><br/>
+         <input value="Register Now!" type="button"
+         class="btn btn-primary"
+          />
+          <input value="Register Now!" type="button"
+          class="btn btn-warning btn-lg"
+           />
+         <br/><br/><br/>
+
+        <input value="Register Now!" type="submit"
+          style="color:red;font-weight: bold; 
+         background-color: yellow;
+         height: 50px;width:500px;"/>
+
+         
+         <br/><br/><br/>
+         <input value="Reset" type="submit"
+          style="color:red;font-weight: bold; 
+         background-color: yellow;
+         height: 50px;width:500px;"/>
+                </form>
+         </div>
+ 
+         <div>
+            <h1>Audio & Video</h1>
+            <audio src="horse.mp3" controls   autoplay muted></audio> 
+            <video src="mov_bbb.mp4"  width ="500px" height ="500px" controls autoplay muted></video>
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/Op1kuT3zu_I" allowfullscreen></iframe>
+        </div>
+    </body>
+</html>

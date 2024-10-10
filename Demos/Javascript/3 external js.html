@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <!-- external js / used in multiple docs -->
+    <script>
+        console.log("s0");
+    </script>
+    <!-- Load the external script -->
+     <!-- <script src="3 external.js"/> -->
+    <script src="3 external.js"></script>
+    
+    <!-- internal js  / used across the document -->
+    <script>
+        console.log("s1");
+    </script>
+    <script>
+        console.log("s2");
+    </script>
+    <script>
+        function internalScript() {
+            console.log("the internal script")
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <!-- inline / belongs to elemen t -->
+        <button onclick="alert('Welcome JS');">
+            Get Message
+        </button>
+        <button onclick='alert("Thankyou");console.log("Thankyou")'>
+            Say Thankyou
+        </button>
+        <!-- my default / submit the form -->
+        <button onclick='internalScript()'>
+            internal
+        </button>
+        <!-- does not submit to the server -->
+        <button type="button" onclick='internalScript()'>
+            internal
+        </button>
+        <button type="button" onclick='externalScript()'>
+            external
+        </button>
+    </form>
+</body>
+
+</html>

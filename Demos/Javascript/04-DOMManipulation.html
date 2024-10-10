@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation</title>
+</head>
+
+<body>
+    <!--DOM manipulation provides the ability to dynamically update the contents of the html document-->
+    <div style="width:250px;height: 250px; background-color:black">
+        <img src="off.gif" style="margin:50px" id="bulb"
+            onmouseover="window.document.getElementById('bulb').src='on.gif'"
+            onmouseout="window.document.getElementById('bulb').src='off.gif'">
+    </div>
+</body>
+</html>

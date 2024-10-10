@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function updateTestPara() {
+            // get the testPara element
+            var testParaElement = document.getElementById("testPara");
+            testParaElement.innerHTML = "    <div style='color:red;'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </div>";
+        }
+    </script>
+</head>
+
+<body>
+    <form onsubmit="return false">
+        <p id="testPara">
+            <b>Lorem text here....</b>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, assumenda nulla. Reprehenderit, perferendis a deserunt fugiat commodi eos ipsam accusamus mollitia incidunt, soluta quidem tenetur illum totam temporibus quis ipsum!   
+        </p>
+        <!-- onclick event / responds to user actions -->
+        <button onclick="updateTestPara()">Insert Lorem Text</button>
+    </form>
+</body>
+
+</html>
