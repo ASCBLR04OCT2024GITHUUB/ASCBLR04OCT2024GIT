@@ -47,3 +47,21 @@ for (const [key, value] of wordsMap) {
 // for (const [key, value] of wordsMap.entries()) {
 //     console.log(`ENTIRES Key: ${key}, Value: ${value}`);
 // }
+
+const wordsArray1  = ['serendipity', 'ephemeral', 'sonder', 'limerence', 'petrichor'];
+// spread operator
+const [word1, word2, word3, word4,word5] = [...wordsArray1];
+console.log('word1 : ', word1);
+console.log('word2 : ', word2);
+console.log('word3 : ', word3);
+console.log('word4 : ', word4);
+console.log('word5 : ', word5);
+
+//simple objecet destructuring example
+const person = {
+    name: 'John Doe',
+    age: 32
+};
+const { name, age } = person;
+console.log(name); // John Doe
+console.log(age); // 32
