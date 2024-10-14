@@ -48,7 +48,7 @@ for (const [key, value] of wordsMap) {
 //     console.log(`ENTIRES Key: ${key}, Value: ${value}`);
 // }
 
-const wordsArray1  = ['serendipity', 'ephemeral', 'sonder', 'limerence', 'petrichor'];
+const wordsArray1  = ['serendipity', 'ephemeral', 'sonder', 'limerence', 'petrichor', 'sonder'];
 // spread operator
 const [word1, word2, word3, word4,word5] = [...wordsArray1];
 console.log('word1 : ', word1);
@@ -65,3 +65,6 @@ const person = {
 const { name, age } = person;
 console.log(name); // John Doe
 console.log(age); // 32
+
+console.log(wordsArray1.indexOf('sonder'));
+console.log(wordsArray1.indexOf('sonder',3));
