@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+<!-- Use the GET method in the form to submit data as URL parameters.
+In TransferDataFrom2.html, retrieve and display the data from the URL parameters. -->
+    <form id="form1" action="TransferDataFrom2.html" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

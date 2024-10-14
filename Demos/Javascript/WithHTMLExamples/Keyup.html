@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press Tracker</title>
+    <script>
+        // The load event listener is used to wait for the entire page to be fully loaded before executing the JavaScript code.
+        // What happens if the script is executed before the DOM is fully loaded?
+        // The script will not be able to find the inputArea and keyPresses elements, and the event listeners will not be attached to them.
+        window.addEventListener('load', () => {
+            const inputArea = document.getElementById('inputArea');
+            const keyPresses = document.getElementById('keyPresses');
+        
+            inputArea.addEventListener('keyup', (event) => {
+                keyPresses.textContent = inputArea.value;
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="inputArea" placeholder="Type something...">
+    <p>Keys pressed: <span id="keyPresses"></span></p>
+</body>
+</html>
