@@ -9,7 +9,7 @@
         // What happens if the script is executed before the DOM is fully loaded?
         // The script will not be able to find the inputArea and keyPresses elements, and the event listeners will not be attached to them.
         window.addEventListener('load', () => {
-            const inputArea = document.getElementById('inputArea');
+            let inputArea = document.getElementById('inputArea');
             const keyPresses = document.getElementById('keyPresses');
         
             inputArea.addEventListener('keyup', (event) => {
