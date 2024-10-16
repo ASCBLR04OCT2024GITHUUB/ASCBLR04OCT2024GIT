@@ -1,4 +1,4 @@
-import { sum,divide } from "./features/d6-modules/module1-export";
+import { sum,divide } from "./module1-export"; // Importing named exports
 // import { divide } from "./module1-export";
 const result = sum(5, 10);
 console.log(result); // Output: 15
