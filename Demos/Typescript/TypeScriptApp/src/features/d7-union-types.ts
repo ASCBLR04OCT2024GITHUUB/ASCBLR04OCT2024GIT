@@ -9,6 +9,7 @@ function printId(id: string | number) {
 
 printId("101"); // Output: 101
 printId(101); // Output: 101
+// printId(true); // Error: Argument of type 'true' is not assignable to parameter of type 'string | number'.
 
 // You can also use union types with interfaces to define objects that can have different property types.
 interface Circle {
@@ -34,3 +35,9 @@ function getArea(shape: Circle | Square): number {
             return shape.sideLength ** 2;
     }
 }
+
+const circle: Circle = { kind: "circle", radius: 10 };
+const square: Square = { kind: "square", sideLength: 10 };
+
+console.log("area of circle " , getArea(circle)); // Output: 314.1592653589793
+console.log("area of squard " , getArea(square)); // Output: 100
