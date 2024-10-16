@@ -1,3 +1,4 @@
+
 // 7. Union Types
 // Union types allow you to specify that a variable can have multiple types.
 // This is useful when a function can accept different types of input.
