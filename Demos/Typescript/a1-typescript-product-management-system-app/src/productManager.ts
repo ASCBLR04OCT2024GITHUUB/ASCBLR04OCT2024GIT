@@ -1,4 +1,4 @@
-import {Product} from './products';
+import { Product } from "./product";
 export class ProductManager {
 // define private and public
     // The public keyword is used to define a class property or method that can be accessed from outside the class.
@@ -18,6 +18,7 @@ export class ProductManager {
     //Purpose : remove product from the products array
     removeProduct(id:number):void {
         this.products = this.products.filter(product => product.id !== id);
+        console.log(`Product with id ${id} removed successfully`);
     }
 
     //Try it : Implementing search methods.

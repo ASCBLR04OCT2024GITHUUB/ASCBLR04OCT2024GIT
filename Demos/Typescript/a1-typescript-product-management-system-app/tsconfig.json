@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "commonjs",
+    }
+}
+
+// target: es2018 - The version of ECMAScript that the code should be compiled to.
+// outDir: ./dist - The directory where the compiled code should be placed.
+// rootDir: ./src - The directory where the source code is located.
+// module: commonjs - The module system that the code should be compiled to.
