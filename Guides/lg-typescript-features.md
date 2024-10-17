@@ -18,7 +18,6 @@ Welcome to the TypeScript guide! This document will introduce you to the  Key Fe
 10. [Modules](#modules)
 11. [Decorators](#decorators)
 12. [Best Practices](#best-practices)
-
 ---
 
 ## Introduction to TypeScript
