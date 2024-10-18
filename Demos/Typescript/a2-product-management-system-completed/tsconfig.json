@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "commonjs",
+        // "types": ["node"] - The types of the Node.js runtime that should be included in the compilation.
+        //why? - The Node.js runtime provides a set of built-in types that are not available in the standard TypeScript library.
+        //process is a global object in Node.js that provides information about the current process.
+        "types": ["node"]
+    }
+}
+
+// target: es2018 - The version of ECMAScript that the code should be compiled to.
+// outDir: ./dist - The directory where the compiled code should be placed.
+// rootDir: ./src - The directory where the source code is located.
+// module: commonjs - The module system that the code should be compiled to.
