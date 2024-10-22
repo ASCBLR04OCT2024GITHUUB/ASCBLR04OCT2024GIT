@@ -1,0 +1,189 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+  <diagram name="Page-1" id="o87UVM55pGxWbO2ufOPf">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-1" value="HTML" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="100" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-2" value="WIKI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="690" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-3" value="LANGUAGES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-4" value="PROGRAMMING LANGUAGES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-5" value="C, C++, JAVA, PYTHON, JAVASCRIPT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="470" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-6" value="MARK UP LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="330" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-7" value="HTML, XML" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="470" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-8" value="QUERY LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="330" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-9" value="SQL, HQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="470" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-10" value="ASSEMBLY LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="660" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-11" value="SCRIPTING LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="330" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-12" value="UNIX, JAVASCRIPT,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="470" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-13" value="OOPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="330" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-14" value="JAVA, C#, C++" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="470" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-15" value="PROECEDURAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="330" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-16" value="C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="470" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-17" value="LANGUAGES WITH ; , }" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="240" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-18" value="LIST LANGUAGES WITH KEYWORDS FROM TO JOIN UNION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="400" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-19" value="LIST LANGUAGES WITH OS RELATED COMMANDS DIR, LS, CP, MV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="560" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-20" value="LANGUAGES WITH TAGS &amp;lt;INPUT&amp;gt;&amp;lt;/INPUT&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="730" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-21" value="MARKUP LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="90" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-22" value="PROGRAMMING LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="250" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-23" value="SCRIPTING LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="420" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-24" value="QUERY LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="600" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-25" value="DESCRIBES DATA AND PRESENTATION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="90" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-26" value="CREATE FULL APPLICATION WITH LOGICAL STRUCTURE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="250" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-27" value="AUTOMATES TASKS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="420" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-28" value="RETREVIES DATA FROM DATABASES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="600" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-29" value="HTML TAGS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-30" value="ELEMENTS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-37" value="INLINE" style="whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-38" value="BLOCK" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-39" value="H1...H6&lt;div&gt;OL&lt;/div&gt;&lt;div&gt;LI&lt;/div&gt;&lt;div&gt;TABLE&lt;/div&gt;&lt;div&gt;A&lt;/div&gt;&lt;div&gt;B&lt;/div&gt;&lt;div&gt;I&lt;/div&gt;&lt;div&gt;SUP&lt;/div&gt;&lt;div&gt;SUB&lt;/div&gt;&lt;div&gt;CODE&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1290" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-40" value="LAB 1 : CATEGORIZE THE INLINE AND BLOCK ELEMENTS AND APPLY THEM" style="whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1430" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-41" value="LAB 2 : FORMAT THE TABLE TO LOOK GOOD WITH&lt;div&gt;MEANINGFUL DATA OF YOUR CHOICE.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1500" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-42" value="HTML FORMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-43" value="LAB 3 : ENHANCE SOLUTION TO HAVE FORM ELEMENTS&lt;br&gt;1. DATE PICKER&lt;div&gt;2. RANGE SLIDER&lt;/div&gt;&lt;div&gt;3.RESET BUTTON&lt;/div&gt;&lt;div&gt;4. ADD MULTIMEDIA&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1580" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9hCQ8bjzFfm9mlBZjdpV-44" value="EXPLORE :&lt;div&gt;&amp;lt;iframe&amp;gt; and enjoy playing your fav learning videos on your own web page&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1710" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ag6gnPJ7Xr8FlouKWMoS-1" value="QUERY LANGUAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="770" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8B7CzKyN6drhLUx49xHi" name="Page-2">
+    <mxGraphModel dx="875" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-1" value="Project" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-16" value="oRANGE" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-18" value="HTML" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-19" value="CSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-20" value="Add Javascript" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-21" value="GIT Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="365" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-22" value="VERSIONS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-23" value="TIME TRAVEL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="540" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-24" value="APPLE" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry y="165" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-26" value="GIT Repository2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="485" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-27" value="GITHUB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="390" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf9_lD2QC0JJoOt-qjDJ-28" target="mf9_lD2QC0JJoOt-qjDJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-28" value="GIT Repository&lt;div&gt;(REMOTE)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-29" value="APPLE" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-31" value="oRANGE" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf9_lD2QC0JJoOt-qjDJ-32" target="mf9_lD2QC0JJoOt-qjDJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-32" value="GIT Repository (LOCAL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="140" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mf9_lD2QC0JJoOt-qjDJ-33" value="GIT Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
