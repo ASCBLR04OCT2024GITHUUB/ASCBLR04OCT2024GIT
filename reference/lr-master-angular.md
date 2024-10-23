@@ -1,3 +1,32 @@
+:writing_hand: **_Angular project structure:_**  
+```sh
+my-angular-app/
+├── public/                   # Public assets
+│   └── another-image.jpg     # Example image in public folder
+├── src/                      # Source files
+│   ├── app/                  # Angular components, services, etc.
+│   │   ├── app.component.css
+│   │   ├── app.component.html
+│   │   ├── app.component.ts
+│   │   └── app.module.ts
+│   ├── assets/               # Static assets (images, fonts, etc.)
+│   │   └── background.jpg    # Example image in assets folder
+│   ├── environments/         # Environment-specific configuration
+│   │   ├── environment.prod.ts
+│   │   └── environment.ts
+│   ├── favicon.ico           # Favicon
+│   ├── index.html            # Main HTML file
+│   ├── main.ts               # Main entry point for Angular
+│   ├── polyfills.ts          # Polyfills for older browsers
+│   ├── styles.css            # Global styles
+│   ├── test.ts               # Test entry point
+│   └── tsconfig.app.json     # TypeScript configuration for the app
+├── angular.json              # Angular CLI configuration
+├── package.json              # Node.js dependencies and scripts
+├── tsconfig.json             # TypeScript configuration
+└── tslint.json               # TSLint configuration
+```
+
 :writing_hand: **_Working with images_**  
 
 - angular.json
