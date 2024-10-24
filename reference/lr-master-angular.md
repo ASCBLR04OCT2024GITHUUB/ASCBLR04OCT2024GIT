@@ -80,3 +80,40 @@ body {
 </body>
 
 ```
+
+:writing_hand: **_Adding Bootstrap to Angular_**  
+
+```sh
+npm install bootstrap
+```
+```json
+// angular.json
+{
+  ...
+  "projects": {
+    "your-project-name": {
+      ...
+      "architect": {
+        "build": {
+          ...
+          "options": {
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+```
+```html
+<!-- app.component.html -->
+<div class="container">
+  <h1 class="text-center">Hello, Bootstrap!</h1>
+</div>
+```
